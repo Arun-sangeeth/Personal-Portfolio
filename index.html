@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquaries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Arun Sangeeth</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#resume">Resume</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Arun Sangeeth</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+             <span></span>
+             <span></span>
+             <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="toggleMenu()" >About</a></li>
+                <li> <a href="#resume" onclick="toggleMenu()">Resume</a></li>
+                <li> <a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>   
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profilepic-img.png" alt="Arun Sangeeth profile picture" />  
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Arun Sangeeth</h1>
+            <p class="section__text__p2">BCA Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/ARUN-SANGEETH-G-C-Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img 
+                   src="./assets/linkedin.png" 
+                   alt="My Linkedin Profile"
+                   class="icon"
+                   onclick="location.href='https://linkedin.com/in/arun-sangeeth-112714246/'" />
+                <img 
+                   src="./assets/github.png" 
+                   alt="My Github Profile"
+                   class="icon"
+                   onclick="location.href='https://github.com/Arun-sangeeth'" />
+            
+            
+            
+                </div>
+
+
+
+
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./assets/about-me-6.jpg"
+                alt="Profile picture"
+                class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img
+                        src="./assets/education.png"
+                        alt="Education icon"
+                        class="icon" />
+                        <h3>Education</h3>
+                        <p>Bachelor Of Computer Application</p>
+                    </div>
+                </div>  
+                <div class="text-container">
+                    <p>
+                        I am a final-year Bachelor of Computer Applications (BCA) student with a strong foundation in web development, web design, and mobile application development.<br /><br/> Passionate about coding and technology, I thrive on creating innovative solutions and exploring new trends in the tech landscape.
+                        I combine technical skills with a keen eye for detail to deliver high-quality projects. My expertise includes developing responsive websites, designing intuitive user interfaces, and crafting websites that provide seamless user experiences.<br /><br/>                        
+                        I am actively seeking opportunities with multinational corporations where I can contribute to impactful projects, collaborate with talented professionals, and further develop my technical and problem-solving skills. My dedication to continuous learning and passion for technology drive me to excel in every challenge I undertake.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#resume'"
+      />
+
+    </section>
+
+    <section id="resume">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Resume</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">What i'm Doing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Intermediate</p>
+                              </div>
+                            </article>
+                            <article>
+                              <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                              />
+                              <div>
+                                <h3>WEB DESIGNING</h3>
+                                <p>Intermediate</p>
+                              </div>
+                            </article>
+                            <article>
+                              <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                              />
+                              <div>
+                                <h3>Mobile Apps</h3>
+                                <p>Intermediate</p>
+                              </div>
+                            </article>
+                            <article>
+                              <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                              />
+                              <div>
+                                <h3>Mobile Photography</h3>
+                                <p>Intermediate</p>
+                              </div>
+                            </article>
+                            <article>
+                              <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                              />
+                              <div>
+                                <h3>AI Tools</h3>
+                                <p>Basic</p>
+                              </div>
+                            </article>
+                            <article>
+                              <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                              />
+                              <div>
+                                <h3>Database Management</h3>
+                                <p>Basic</p>
+                              </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Programming skills</h2>
+                        <div class="article-container">
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icon"
+                            />
+                            <div>
+                              <h3>Python</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icon"
+                            />
+                            <div>
+                              <h3>HTML, CSS</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icon"
+                            />
+                            <div>
+                              <h3>C</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icon"
+                            />
+                            <div>
+                              <h3>SQL</h3>
+                              <p>Intermediate</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                             src="./assets/checkmark.png"
+                             alt="Experience icon"
+                             class="icon"
+                            />
+                            <div>
+                                <h3>java script</h3>
+                                <p>Basic</p>
+                              </div>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                  src="./assets/arrow.png"
+                  alt="Arrow icon"
+                  class="icon arrow"
+                  onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/portfolio-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'">
+                Github
+                </button>
+                <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/project-4.png"
+                    alt="Project 2"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/'">
+                    Github
+                </button>
+                <button
+                 class="btn btn-color-2 project-btn"
+                 onclick="location.href='https://github.com/'">
+                 Live Demo
+                </button>
+                </div>
+            </div>
+          </div>
+        </div>    
+            <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:arunsangeethgc@gmail.com">arunsangeethgc@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://linkedin.com/in/arun-sangeeth-112714246/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
